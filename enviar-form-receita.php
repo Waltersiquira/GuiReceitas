@@ -14,13 +14,15 @@
     $imagem = $_GET['imagem'] ?? '';
     if (!empty($nome) and !empty($descricao) and !empty($imagem)){
         if ($sistem->query("INSERT INTO `receitas` (`id`, `nome`, `descrição`, `imagem`) VALUES (DEFAULT, '$nome', '$descricao', '$imagem')") == true){
-            echo "Receita adcionada com sucesso";
+            echo "Receita adcionada com sucesso <br>";
         } else {
-            echo 'erro ao inserir dados';
+            echo 'erro ao inserir dados <br>';
         }
     } else {
-        echo "erro não pode ter nome, descricao, imagem vazia";
+        echo "erro não pode ter nome, descricao, imagem vazia <br>";
     }
     ?>
+    <button><a href="index.php" style="text-decoration: none;">Voltar</a></button>
+    <?php $sistem->close() ?>
 </body>
 </html>
