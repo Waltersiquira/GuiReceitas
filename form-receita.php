@@ -12,7 +12,7 @@
         <input type="text" name="nome"> <br>
         digite a descrição da receita <br>
         <input type="text" name="descricao"> <br>
-        digite a imagem da receita <br>
+        digite a imagem url da receita <br>
         <input type="text" name="imagem"> <br>
         <input type="submit">
     </form>
