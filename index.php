@@ -7,7 +7,7 @@
     <title>GuiReceitas</title>
 </head>
 <body>
-    <button><a href="form-receita.php" style="text-decoration: none;">adcionar receita</a></button>
+    <button><a href="form-receita.html" style="text-decoration: none;">adcionar receita</a></button>
     <?php require_once 'includes/sistema.php' ?>
     <h1 style="color: brown;">GuiReceitas</h1>
     <hr>
